@@ -1,0 +1,458 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:977ad4c7-ccaf-4c06-be4c-911f3e379883",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-04-15T12:16:02.359Z",
+    "tools": [
+      {
+        "vendor": "cyclonedx",
+        "name": "cdxgen",
+        "version": "8.6.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ]
+  },
+  "components": [
+    {
+      "author": "Jason R. Coombs <jaraco@jaraco.com>",
+      "publisher": "",
+      "group": "",
+      "name": "wolframalpha",
+      "version": "5.0.0",
+      "description": "Wolfram|Alpha 2.0 API client",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "159f5d8fd31e4a734a34a9f3ae8aec4e9b2ef392607f82069b4a324b6b1831d5"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/wolframalpha@5.0.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/jaraco/wolframalpha"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/wolframalpha@5.0.0",
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "author": "The Sage Development Team <marc.masdeu@gmail.com>",
+      "publisher": "",
+      "group": "",
+      "name": "SageMath",
+      "version": "1.3.0",
+      "description": "A free open-source mathematics software system",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8269fca3f6c86f10a8fcd1cc9889c06dfe3038fda33c21f41dcf6ebd7036e527"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPLv3+"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/sagemath@1.3.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.sagemath.org"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/sagemath@1.3.0",
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "author": "Case Van Horsen <casevh@gmail.com>",
+      "publisher": "",
+      "group": "",
+      "name": "gmpy",
+      "version": "2.1.15",
+      "description": "GMP or MPIR interface to Python 2.4+ and 3.x",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "name": "UNKNOWN"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/gmpy@2.1.15",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://code.google.com/p/gmpy/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/gmpy@2.1.15",
+      "properties": [
+        {
+          "name": "cdx:pypi:latest_version",
+          "value": "1.17"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "six",
+      "version": "1.16.0",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/six@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "cryptography",
+      "version": "39.0.1",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/cryptography@39.0.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cryptography@39.0.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "urllib3",
+      "version": "1.26.5",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/urllib3@1.26.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@1.26.5"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "requests",
+      "version": "2.25.1",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/requests@2.25.1",
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.25.1"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "gmpy2",
+      "version": "2.1.5",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/gmpy2@2.1.5",
+      "type": "library",
+      "bom-ref": "pkg:pypi/gmpy2@2.1.5"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "pycryptodome",
+      "version": "3.10.4",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/pycryptodome@3.10.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycryptodome@3.10.4"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "tqdm",
+      "version": "4.66.2",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/tqdm@4.66.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/tqdm@4.66.2"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "z3-solver",
+      "version": "4.13.0.0",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/z3-solver@4.13.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/z3-solver@4.13.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "bitarray",
+      "version": "2.9.2",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/bitarray@2.9.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/bitarray@2.9.2"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "psutil",
+      "version": "5.9.4",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/psutil@5.9.4",
+      "type": "library",
+      "bom-ref": "pkg:pypi/psutil@5.9.4"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "factordb-pycli",
+      "version": "1.3.0",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/factordb-pycli@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/factordb-pycli@1.3.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "certifi",
+      "version": "2024.2.2",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/certifi@2024.2.2",
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2024.2.2"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "cffi",
+      "version": "1.16.0",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/cffi@1.16.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/cffi@1.16.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "chardet",
+      "version": "4.0.0",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/chardet@4.0.0",
+      "type": "library",
+      "bom-ref": "pkg:pypi/chardet@4.0.0"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "idna",
+      "version": "2.10",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/idna@2.10",
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@2.10"
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "pycparser",
+      "version": "2.22",
+      "description": "",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:pypi/pycparser@2.22",
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycparser@2.22"
+    },
+    {
+      "author": "Helder Eijs <helderijs@gmail.com>",
+      "publisher": "",
+      "group": "",
+      "name": "pycryptodomex",
+      "version": "3.20.0",
+      "description": "Cryptographic library for Python",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "645bd4ca6f543685d643dadf6a856cc382b654cc923460e3a10a49c1b3832aeb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD, Public Domain"
+          }
+        }
+      ],
+      "purl": "pkg:pypi/pycryptodomex@3.20.0",
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.pycryptodome.org"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycryptodomex@3.20.0",
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "factordb",
+      "version": "latest",
+      "description": "",
+      "scope": "required",
+      "licenses": [],
+      "purl": "pkg:pypi/factordb@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/factordb@latest",
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "cdx:pypi:pedigree",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "",
+      "name": "sage-functions",
+      "version": "latest",
+      "description": "",
+      "scope": "required",
+      "licenses": [],
+      "purl": "pkg:pypi/sage-functions@latest",
+      "type": "library",
+      "bom-ref": "pkg:pypi/sage-functions@latest",
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        },
+        {
+          "name": "cdx:pypi:pedigree",
+          "value": "unknown"
+        }
+      ]
+    },
+    {
+      "author": "PressLabs SRL <contact@presslabs.com>",
+      "publisher": "",
+      "group": "",
+      "name": "z3",
+      "version": "0.2.0",
+      "description": "Backup ZFS snapshots to S3",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "34819e964d71e1474f933b34b9e65f0d021ccfc9d9edbbded54d54c1a9352b90"
+        }
+      ],
+      "licenses": [],
+      "purl": "pkg:pypi/z3@0.2.0",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/presslabs/z3"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:pypi/z3@0.2.0",
+      "properties": [
+        {
+          "name": "cdx:pypi:versionSpecifiers",
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "dependencies": [],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/home/kali/Desktop/RsaCtfTool/optional-requirements.txt, /home/kali/Desktop/RsaCtfTool/requirements.txt",
+      "comment": "Package file"
+    }
+  ]
+}

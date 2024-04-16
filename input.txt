@@ -1,0 +1,21 @@
+<?php
+$username = $_POST['username'];
+$password = $_POST['password'];
+
+// 데이터베이스에 연결
+$mysqli = new mysqli("localhost", "my_user", "my_password", "my_db");
+
+$sql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
+
+$result = $mysqli->query($sql);
+
+if ($result->num_rows > 0) {
+    // 사용자 인증 성공
+    echo '로그인 성공!';
+} else {
+    // 사용자 인증 실패
+    echo '로그인 실패!';
+}
+
+$mysqli->close();
+?>
