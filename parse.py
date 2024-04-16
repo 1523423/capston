@@ -14,5 +14,5 @@ def find_all_refs(obj, key):
 def extract_version_ref(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
         data = json.load(file)
-    
     refs = list(find_all_refs(data, "bom-ref"))
+    print(refs)

@@ -40,7 +40,7 @@ max_tokens=3000,
 stop=None,
 temperature=0
 )
-"""
+""""""
 # 질문 답변 모델(코드)
 file_name = input("input File name: ")
 pre_prompt = "Please analyze the code to be provided in the future by functional unit and let us know the possibility of vulnerability.\nAdditionally, if secure coding is possible, please do it."
@@ -56,8 +56,8 @@ messages=[
 max_tokens=3000,
 stop=None,
 temperature=0
-)
-""" 프로젝트 버전 정보 취약점 탐지 모델
+)"""
+""" 프로젝트 버전 정보 취약점 탐지 모델"""
 file_name = input("input File name: ")
 parse.extract_version_ref(file_name)
 pre_prompt = "Please analyze the code to be provided in the future by functional unit and let us know the possibility of vulnerability.\nAdditionally, if secure coding is possible, please do it."
@@ -74,6 +74,5 @@ max_tokens=3000,
 stop=None,
 temperature=0
 )
-"""
 answer = response.choices[0].message.content.strip()
 print(answer)
