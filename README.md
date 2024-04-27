@@ -1,2 +1,1 @@
-echo "<script>alert(1)</script>"
-12321312
+1231231
